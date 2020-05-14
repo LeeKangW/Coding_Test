@@ -18,5 +18,8 @@
     <ClCompile Include="마라톤 미완주자 찾기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="소멸자 체크.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
