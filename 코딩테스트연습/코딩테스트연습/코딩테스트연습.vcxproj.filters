@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\프로그래머스">
       <UniqueIdentifier>{7720e4c7-5ef2-438e-bc9a-8a51a6a6f609}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level1">
+      <UniqueIdentifier>{4ba30196-b444-412f-ab78-29f424244097}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="마라톤 미완주자 찾기.cpp">
@@ -32,6 +35,12 @@
     </ClCompile>
     <ClCompile Include="실험.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="크레인 인형뽑기 게임.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="완주하지 못한 선수.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
