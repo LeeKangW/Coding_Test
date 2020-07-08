@@ -27,9 +27,6 @@
     <ClCompile Include="소멸자 체크.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="데브시스터즈 코테.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="2019 kakao blind 채용 - 실패율 문제.cpp">
       <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
@@ -40,6 +37,9 @@
       <Filter>소스 파일\프로그래머스\Level1</Filter>
     </ClCompile>
     <ClCompile Include="완주하지 못한 선수.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="모의고사.cpp">
       <Filter>소스 파일\프로그래머스\Level1</Filter>
     </ClCompile>
   </ItemGroup>
