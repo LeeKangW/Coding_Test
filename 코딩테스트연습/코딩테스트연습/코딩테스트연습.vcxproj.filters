@@ -42,5 +42,20 @@
     <ClCompile Include="모의고사.cpp">
       <Filter>소스 파일\프로그래머스\Level1</Filter>
     </ClCompile>
+    <ClCompile Include="체육복.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="K번째 수.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="2016년.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="가운데글자가져오기.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="같은 숫자는 싫어.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
