@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\프로그래머스\Level1">
       <UniqueIdentifier>{4ba30196-b444-412f-ab78-29f424244097}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level1\카카오">
+      <UniqueIdentifier>{92584c62-c149-4e6e-b6be-2dbc812bde55}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="마라톤 미완주자 찾기.cpp">
@@ -92,6 +95,33 @@
     </ClCompile>
     <ClCompile Include="약수의 합.cpp">
       <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="후위순회 사칙연산.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="이상한 문자 만들기.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="자릿수 더하기.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="자연수 뒤집어 배열로 만들기.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="정수 내림차순으로 배치하기.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="정수 제곱근 판별.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="제일 작은 수 제거하기.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="짝수와 홀수.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="[카카오인턴]키패드 누르기.cpp">
+      <Filter>소스 파일\프로그래머스\Level1\카카오</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
