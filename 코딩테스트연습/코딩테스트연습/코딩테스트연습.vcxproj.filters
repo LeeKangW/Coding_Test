@@ -19,7 +19,7 @@
     <Filter Include="소스 파일\프로그래머스\Level1">
       <UniqueIdentifier>{4ba30196-b444-412f-ab78-29f424244097}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\프로그래머스\Level1\카카오">
+    <Filter Include="소스 파일\프로그래머스\Level1\연습문제 외">
       <UniqueIdentifier>{92584c62-c149-4e6e-b6be-2dbc812bde55}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -29,9 +29,6 @@
     </ClCompile>
     <ClCompile Include="소멸자 체크.cpp">
       <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2019 kakao blind 채용 - 실패율 문제.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
     <ClCompile Include="실험.cpp">
       <Filter>소스 파일</Filter>
@@ -121,7 +118,43 @@
       <Filter>소스 파일\프로그래머스\Level1</Filter>
     </ClCompile>
     <ClCompile Include="[카카오인턴]키패드 누르기.cpp">
-      <Filter>소스 파일\프로그래머스\Level1\카카오</Filter>
+      <Filter>소스 파일\프로그래머스\Level1\연습문제 외</Filter>
+    </ClCompile>
+    <ClCompile Include="최대공약수와 최소공배수.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="콜라츠 추측.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="평균 구하기.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="하샤드 수.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="핸드폰 번호 가리기.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="행렬의 덧셈.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="x만큼 간격이 있는 n개의 숫자.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="직사각형 별찍기.cpp">
+      <Filter>소스 파일\프로그래머스\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="[Summer Winter Coding] 예산.cpp">
+      <Filter>소스 파일\프로그래머스\Level1\연습문제 외</Filter>
+    </ClCompile>
+    <ClCompile Include="[2018 카카오 BLIND RECRUITMENT] [1차] 비밀지도.cpp">
+      <Filter>소스 파일\프로그래머스\Level1\연습문제 외</Filter>
+    </ClCompile>
+    <ClCompile Include="2019 kakao blind 채용 - 실패율 문제.cpp">
+      <Filter>소스 파일\프로그래머스\Level1\연습문제 외</Filter>
+    </ClCompile>
+    <ClCompile Include="[2018 카카오 블라인드 채용] [1차] 다트게임.cpp">
+      <Filter>소스 파일\프로그래머스\Level1\연습문제 외</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
