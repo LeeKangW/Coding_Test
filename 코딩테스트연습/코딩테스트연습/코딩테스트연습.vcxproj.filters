@@ -22,6 +22,21 @@
     <Filter Include="소스 파일\프로그래머스\Level1\연습문제 외">
       <UniqueIdentifier>{92584c62-c149-4e6e-b6be-2dbc812bde55}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level2">
+      <UniqueIdentifier>{8008749d-0478-488a-a1d6-367fe955ad82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level2\스택/큐">
+      <UniqueIdentifier>{6e6e7b3e-edfd-4361-9c4b-7a47ddb45663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level2\연습문제">
+      <UniqueIdentifier>{374d80c9-06f8-49c3-bb8c-738119479002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level2\Summer/Winter Coding">
+      <UniqueIdentifier>{8219f50f-720a-42ca-a381-0888d9019257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level2\카카오">
+      <UniqueIdentifier>{fe894911-5cf5-4f86-ad80-5771e08f727d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="마라톤 미완주자 찾기.cpp">
@@ -155,6 +170,36 @@
     </ClCompile>
     <ClCompile Include="[2018 카카오 블라인드 채용] [1차] 다트게임.cpp">
       <Filter>소스 파일\프로그래머스\Level1\연습문제 외</Filter>
+    </ClCompile>
+    <ClCompile Include="주식가격.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\스택/큐</Filter>
+    </ClCompile>
+    <ClCompile Include="쇠막대기.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\스택/큐</Filter>
+    </ClCompile>
+    <ClCompile Include="기능개발.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\스택/큐</Filter>
+    </ClCompile>
+    <ClCompile Include="124 나라의 숫자.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="스킬트리.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\Summer/Winter Coding</Filter>
+    </ClCompile>
+    <ClCompile Include="멀쩡한 사각형.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\Summer/Winter Coding</Filter>
+    </ClCompile>
+    <ClCompile Include="프린터.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\스택/큐</Filter>
+    </ClCompile>
+    <ClCompile Include="탑.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\스택/큐</Filter>
+    </ClCompile>
+    <ClCompile Include="다리를 지나는 트럭.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\스택/큐</Filter>
+    </ClCompile>
+    <ClCompile Include="카카오프렌즈 컬러링북.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\카카오</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
