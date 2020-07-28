@@ -37,6 +37,27 @@
     <Filter Include="소스 파일\프로그래머스\Level2\카카오">
       <UniqueIdentifier>{fe894911-5cf5-4f86-ad80-5771e08f727d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level2\탐욕법">
+      <UniqueIdentifier>{4899b8fb-d1d0-4c54-bf25-5dd816ba6529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level2\힙">
+      <UniqueIdentifier>{7d73aeb9-ff65-470e-9eb4-70404efc7f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level2\정렬">
+      <UniqueIdentifier>{db23158d-71c8-44f0-a02c-498aef2d3c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level2\완전탐색">
+      <UniqueIdentifier>{33d932a5-f6de-4209-a304-9e99a07999d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level2\해시">
+      <UniqueIdentifier>{314d1c9e-9602-4562-b1f5-cf2289f60117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level2\깊이/너비 우선 탐색">
+      <UniqueIdentifier>{e950825a-5b3d-464a-8a0e-2fab1aafaacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level2\찾아라 프로그래밍 마에스터">
+      <UniqueIdentifier>{52094828-293b-4912-a036-6e400500839c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="마라톤 미완주자 찾기.cpp">
@@ -200,6 +221,93 @@
     </ClCompile>
     <ClCompile Include="카카오프렌즈 컬러링북.cpp">
       <Filter>소스 파일\프로그래머스\Level2\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 압축.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="큰 수 만들기.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\탐욕법</Filter>
+    </ClCompile>
+    <ClCompile Include="더 맵게.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\힙</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 큰 수.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="조이스틱.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\탐욕법</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호변환.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="소수찾기.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="전화번호 목록.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\해시</Filter>
+    </ClCompile>
+    <ClCompile Include="H-Index.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자 야구.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="위장.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\해시</Filter>
+    </ClCompile>
+    <ClCompile Include="구명보트.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\탐욕법</Filter>
+    </ClCompile>
+    <ClCompile Include="카펫.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="타켓 넘버.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\깊이/너비 우선 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="라면공장.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\힙</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 큰 정사각형 찾기.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="단체사진 찍기.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="올바른 괄호.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="튜플.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="다음 큰 숫자.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="땅따먹기.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="폰켓몬.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\찾아라 프로그래밍 마에스터</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자의 표현.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="최댓값과 최솟값.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="최솟값 만들기.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치수.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="수식 최대화.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="행렬의 곱셈.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="JadenCase 문자열 만들기.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\연습문제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
