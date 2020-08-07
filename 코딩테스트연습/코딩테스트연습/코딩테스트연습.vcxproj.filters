@@ -58,6 +58,9 @@
     <Filter Include="소스 파일\프로그래머스\Level2\찾아라 프로그래밍 마에스터">
       <UniqueIdentifier>{52094828-293b-4912-a036-6e400500839c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level2\2017 팁스다운">
+      <UniqueIdentifier>{2a359014-8dbb-483c-a6bb-e0541931ff23}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="마라톤 미완주자 찾기.cpp">
@@ -308,6 +311,12 @@
     </ClCompile>
     <ClCompile Include="JadenCase 문자열 만들기.cpp">
       <Filter>소스 파일\프로그래머스\Level2\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="N개의 최소공배수.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="짝지어 제거하기.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\2017 팁스다운</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
