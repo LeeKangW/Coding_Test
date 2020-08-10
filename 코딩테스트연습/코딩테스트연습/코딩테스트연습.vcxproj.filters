@@ -318,5 +318,17 @@
     <ClCompile Include="짝지어 제거하기.cpp">
       <Filter>소스 파일\프로그래머스\Level2\2017 팁스다운</Filter>
     </ClCompile>
+    <ClCompile Include="소수 만들기.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\Summer/Winter Coding</Filter>
+    </ClCompile>
+    <ClCompile Include="점프와순간이동.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\Summer/Winter Coding</Filter>
+    </ClCompile>
+    <ClCompile Include="영어 끝말잇기.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\Summer/Winter Coding</Filter>
+    </ClCompile>
+    <ClCompile Include="예상 대진표.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\2017 팁스다운</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
