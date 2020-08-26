@@ -61,6 +61,9 @@
     <Filter Include="소스 파일\프로그래머스\Level2\2017 팁스다운">
       <UniqueIdentifier>{2a359014-8dbb-483c-a6bb-e0541931ff23}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\LeetCode">
+      <UniqueIdentifier>{5a5aa105-99ab-4256-b698-8c91e813521b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="마라톤 미완주자 찾기.cpp">
@@ -341,6 +344,24 @@
     </ClCompile>
     <ClCompile Include="오픈채팅방.cpp">
       <Filter>소스 파일\프로그래머스\Level2\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="후보키.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="방금 그곡.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="압축.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="파일명 정렬.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="n진수 게임.cpp">
+      <Filter>소스 파일\프로그래머스\Level2\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="Two Sum.cpp">
+      <Filter>소스 파일\LeetCode</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
