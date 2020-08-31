@@ -64,6 +64,18 @@
     <Filter Include="소스 파일\LeetCode">
       <UniqueIdentifier>{5a5aa105-99ab-4256-b698-8c91e813521b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level3">
+      <UniqueIdentifier>{a0b4ef4a-f18d-4b0d-83c0-ccad41932350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level3\카카오">
+      <UniqueIdentifier>{9d0b6eb4-b905-42f5-9aad-0779bcebefad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level3\DFS/BFS">
+      <UniqueIdentifier>{da01cb5c-1f45-474b-b64d-6ab66b17d34f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level3\힙%28Heap%29">
+      <UniqueIdentifier>{d7f17b38-7e95-4833-86da-d6efb87dfd16}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="마라톤 미완주자 찾기.cpp">
@@ -362,6 +374,24 @@
     </ClCompile>
     <ClCompile Include="Two Sum.cpp">
       <Filter>소스 파일\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="추석 트래픽.cpp">
+      <Filter>소스 파일\프로그래머스\Level3\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="2Xn 타일링.cpp">
+      <Filter>소스 파일\프로그래머스\Level3\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="N으로 표현.cpp">
+      <Filter>소스 파일\프로그래머스\Level3\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="네트워크.cpp">
+      <Filter>소스 파일\프로그래머스\Level3\DFS/BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="브라이언의 고민%28미완%29.cpp">
+      <Filter>소스 파일\프로그래머스\Level3\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="디스크 컨트롤러.cpp">
+      <Filter>소스 파일\프로그래머스\Level3\힙%28Heap%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
