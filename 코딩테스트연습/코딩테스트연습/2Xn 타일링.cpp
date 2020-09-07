@@ -7,18 +7,18 @@ using namespace std;
 
 int solution(int n)
 {
-    vector<int> p(60001, 0);
-    p[1] = 1;
-    p[2] = 2;
+	vector<int> p(60001, 0);
+	p[1] = 1;
+	p[2] = 2;
 
-    for (size_t i = 3; i <= n; i++)
-    {
-        p[i] = p[i - 1] + p[i - 2];
-    }
-    return p[n];
+	for (size_t i = 3; i <= n; i++)
+	{
+		p[i] = p[i - 1] + p[i - 2];
+	}
+	return p[n];
 }
 
 int main()
 {
-    solution(4);
+	solution(4);
 }

@@ -8,32 +8,29 @@ using namespace std;
 
 int answer = 9;
 
-void find_answer(int N, int number,int count,int cur_num)
+void find_answer(int N, int number, int count, int cur_num)
 {
-    if (count >= 9) return;
+	if (count >= 9) return;
 
-    if (cur_num == number)
-    {
-        answer = min(count, answer);
-        return;
-    }
+	if (cur_num == number)
+	{
+		answer = min(count, answer);
+		return;
+	}
 
-    int temp = 0;
-    for (size_t i = 0; i < 9; ++i)
-    {
-        temp = temp * 10 + N;
-        find_answer(N, number, count + 1 + i, cur_num + temp);
-        find_answer(N, number, count + 1 + i, cur_num - temp);
-        find_answer(N, number, count + 1 + i, cur_num * temp);
-        find_answer(N, number, count + 1 + i, cur_num / temp);
-    }
-
-
+	int temp = 0;
+	for (size_t i = 0; i < 9; ++i)
+	{
+		temp = temp * 10 + N;
+		find_answer(N, number, count + 1 + i, cur_num + temp);
+		find_answer(N, number, count + 1 + i, cur_num - temp);
+		find_answer(N, number, count + 1 + i, cur_num * temp);
+		find_answer(N, number, count + 1 + i, cur_num / temp);
+	}
 }
 int solution(int N, int number)
 {
-
-    find_answer(N, number,0,0);
-    if (answer == 9) return -1;
-    return answer;
+	find_answer(N, number, 0, 0);
+	if (answer == 9) return -1;
+	return answer;
 }
