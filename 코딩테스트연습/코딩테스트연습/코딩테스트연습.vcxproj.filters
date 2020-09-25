@@ -82,6 +82,18 @@
     <Filter Include="소스 파일\프로그래머스\Level3\해시">
       <UniqueIdentifier>{a874b9bf-b678-4929-b2aa-c8b792962884}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level3\연습문제">
+      <UniqueIdentifier>{16e666e9-2690-4744-981e-e1c1986e4d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\월간코드챌린지시즌1">
+      <UniqueIdentifier>{49e70f4b-752a-499c-b38b-bb39f77458b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level3\동적계획법">
+      <UniqueIdentifier>{45364ca9-2d8e-4af0-a049-5ce9ae091d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\Level3\탐욕법">
+      <UniqueIdentifier>{9c851aed-a616-4411-a6c8-22951a85b46a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="마라톤 미완주자 찾기.cpp">
@@ -404,6 +416,33 @@
     </ClCompile>
     <ClCompile Include="베스트앨범.cpp">
       <Filter>소스 파일\프로그래머스\Level3\해시</Filter>
+    </ClCompile>
+    <ClCompile Include="단어 변환.cpp">
+      <Filter>소스 파일\프로그래머스\Level3\DFS/BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="여행경로.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="이중우선순위큐.cpp">
+      <Filter>소스 파일\프로그래머스\Level3\힙%28Heap%29</Filter>
+    </ClCompile>
+    <ClCompile Include="멀리 뛰기.cpp">
+      <Filter>소스 파일\프로그래머스\Level3\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1.cpp">
+      <Filter>소스 파일\프로그래머스\월간코드챌린지시즌1</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2.cpp">
+      <Filter>소스 파일\프로그래머스\월간코드챌린지시즌1</Filter>
+    </ClCompile>
+    <ClCompile Include="자물쇠와 열쇠.cpp">
+      <Filter>소스 파일\프로그래머스\Level3\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="가사 검색.cpp">
+      <Filter>소스 파일\프로그래머스\Level3\카카오</Filter>
+    </ClCompile>
+    <ClCompile Include="단속카메라.cpp">
+      <Filter>소스 파일\프로그래머스\Level3\탐욕법</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
