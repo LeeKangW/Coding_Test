@@ -1,66 +1,92 @@
 #include <string>
 #include <vector>
-#include <queue>
 #include <algorithm>
 
 /**
-* @See : https://programmers.co.kr/learn/courses/30/lessons/43164
+* 문제가 이상함.... 테스트케이스 1은 모든 티켓을 사용하지 않는 테스트케이스로 구성되어 있음.
+* @ Link : https://programmers.co.kr/learn/courses/30/lessons/43164
 */
 using namespace std;
 
-struct Compare
+bool isFind = false;
+vector<int> idx;
+int failedCount = 0;
+void FindRoute(string nextName, int CurIdx, const vector<vector<string>>& tickets, vector<bool>& check, vector<string>& answer)
 {
-    bool operator()(pair<string, int>& a, pair<string, int>& b)
+    if (all_of(check.begin(), check.end(), [](const bool& b) { return b == true; }))
     {
-        if (a.first == b.first)
-            return false;
-        return a.first > b.first;
-    }
-};
-void Find(vector<vector<string>> tickets, string curAirPort, vector<string>& answer)
-{
-    answer.push_back(curAirPort);
-    if (tickets.empty())
-        return;
-
-    priority_queue<pair<string, int>, vector< pair<string, int>>, Compare> pq;
-
-    for (size_t i = 0; i < tickets.size(); i++)
-    {
-        vector<string> vTmp = tickets[i];
-        if (vTmp[0] == curAirPort)
+        isFind = true;
+        answer.push_back(nextName);
+        while (!idx.empty())
         {
-            pq.push(make_pair(vTmp[1], i));
-        }
-    }
-
-    while (!pq.empty())
-    {
-        if (tickets.size() <= 1)
-            break;
-
-        string tmpStr = pq.top().first;
-        bool isExist = false;
-        for (size_t i = 0; i < tickets.size(); i++)
-        {
-            vector<string> vTmp = tickets[i];
-            if (vTmp[0] == tmpStr)
+            for (int i = 0; i < idx.size(); ++i)
             {
-                isExist = true;
-                break;
+                if (tickets[idx[i]][0] == nextName)
+                {
+                    answer.push_back(tickets[idx[i]][1]);
+                    nextName = tickets[idx[i]][1];
+                    idx.erase(idx.begin() + i);
+                    break;
+                }
             }
         }
-        if (isExist)
-            break;
-        pq.pop();
+        return;
     }
-    tickets.erase(tickets.begin() + pq.top().second);
-    Find(tickets, pq.top().first, answer);
+    bool isExist = false;
+    for (int i = 0; i < tickets.size(); ++i)
+    {
+        if ((tickets[i][0] == nextName) && (!check[i]))
+        {
+            isExist = true;
+            check[i] = true;
+            answer.push_back(nextName);
+            FindRoute(tickets[i][1], i, tickets, check, answer);
+            break;
+        }
+    }
+    if (!isExist)
+    {
+        for (int i = 0; i < check.size(); ++i)
+        {
+            check[i] = false;
+        }
+
+        check[CurIdx] = true;
+        idx.push_back(CurIdx);
+        if (failedCount < tickets.size()-1)
+        {
+            answer.clear();
+            failedCount += 1;
+        }
+        else
+        {
+            failedCount += 1;
+        }
+        return;
+    }
 }
+
 vector<string> solution(vector<vector<string>> tickets)
 {
     vector<string> answer;
+    sort(tickets.begin(), tickets.end(), [](const vector<string>& a, const vector<string>& b)
+        {
+            return a[1] < b[1];
+        });
+    vector<bool> check(tickets.size(), false);
 
-    Find(tickets, "ICN", answer);
+    while (!isFind && failedCount < tickets.size())
+    {
+        for (int i = 0; i < tickets.size(); ++i)
+        {
+            if (tickets[i][0] == "ICN" && !check[i])
+            {
+                check[i] = true;
+                answer.push_back(tickets[i][0]);
+                FindRoute(tickets[i][1], i, tickets, check, answer);
+                break;
+            }
+        }
+    }
     return answer;
 }
