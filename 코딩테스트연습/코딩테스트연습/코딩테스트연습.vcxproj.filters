@@ -456,5 +456,11 @@
     <ClCompile Include="정수삼각형.cpp">
       <Filter>소스 파일\프로그래머스\Level3\동적계획법</Filter>
     </ClCompile>
+    <ClCompile Include="거스름돈.cpp">
+      <Filter>소스 파일\프로그래머스\Level3\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="최고의 집합.cpp">
+      <Filter>소스 파일\프로그래머스\Level3\연습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
