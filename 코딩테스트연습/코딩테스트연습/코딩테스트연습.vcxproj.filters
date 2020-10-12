@@ -94,6 +94,9 @@
     <Filter Include="소스 파일\프로그래머스\Level3\탐욕법">
       <UniqueIdentifier>{9c851aed-a616-4411-a6c8-22951a85b46a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\펄어비스 연습">
+      <UniqueIdentifier>{c183f8d1-7dfa-4553-b5ba-e69e9f92fb01}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="마라톤 미완주자 찾기.cpp">
@@ -469,7 +472,10 @@
       <Filter>소스 파일\프로그래머스\Level3\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="파일입출력.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\펄어비스 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="동적이중배열.cpp">
+      <Filter>소스 파일\펄어비스 연습</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
