@@ -94,8 +94,14 @@
     <Filter Include="소스 파일\프로그래머스\Level3\탐욕법">
       <UniqueIdentifier>{9c851aed-a616-4411-a6c8-22951a85b46a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\펄어비스 연습">
-      <UniqueIdentifier>{c183f8d1-7dfa-4553-b5ba-e69e9f92fb01}</UniqueIdentifier>
+    <Filter Include="소스 파일\스레드">
+      <UniqueIdentifier>{9ed6840d-96f0-49fb-b648-e04f0f3657f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c++ 기본 문법들">
+      <UniqueIdentifier>{491db8fc-91e5-4b7b-93e4-7563ee0214e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\파일입출력">
+      <UniqueIdentifier>{ce537992-2510-4343-9773-cdc7b55af4d8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -471,17 +477,35 @@
     <ClCompile Include="야근 지수.cpp">
       <Filter>소스 파일\프로그래머스\Level3\연습문제</Filter>
     </ClCompile>
-    <ClCompile Include="파일입출력.cpp">
-      <Filter>소스 파일\펄어비스 연습</Filter>
+    <ClCompile Include="atomic을 사용한 원자성 부여.cpp">
+      <Filter>소스 파일\스레드</Filter>
     </ClCompile>
-    <ClCompile Include="동적이중배열.cpp">
-      <Filter>소스 파일\펄어비스 연습</Filter>
+    <ClCompile Include="스레드 공부.cpp">
+      <Filter>소스 파일\스레드</Filter>
     </ClCompile>
-    <ClCompile Include="배열 연습.cpp">
-      <Filter>소스 파일\펄어비스 연습</Filter>
+    <ClCompile Include="파일 입출력 스레드로.cpp">
+      <Filter>소스 파일\스레드</Filter>
     </ClCompile>
     <ClCompile Include="virtual 클래스 연습.cpp">
-      <Filter>소스 파일\펄어비스 연습</Filter>
+      <Filter>소스 파일\c++ 기본 문법들</Filter>
+    </ClCompile>
+    <ClCompile Include="깊은 복사 얕은 복사.cpp">
+      <Filter>소스 파일\c++ 기본 문법들</Filter>
+    </ClCompile>
+    <ClCompile Include="동적이중배열.cpp">
+      <Filter>소스 파일\c++ 기본 문법들</Filter>
+    </ClCompile>
+    <ClCompile Include="배열 연습.cpp">
+      <Filter>소스 파일\c++ 기본 문법들</Filter>
+    </ClCompile>
+    <ClCompile Include="c++ 기본 입출력%28입력버퍼비우기%29.cpp">
+      <Filter>소스 파일\c++ 기본 문법들</Filter>
+    </ClCompile>
+    <ClCompile Include="파일입출력.cpp">
+      <Filter>소스 파일\파일입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="파일입출력 예제.cpp">
+      <Filter>소스 파일\파일입출력</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
