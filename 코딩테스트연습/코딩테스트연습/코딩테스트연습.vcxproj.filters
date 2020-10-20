@@ -103,6 +103,9 @@
     <Filter Include="소스 파일\파일입출력">
       <UniqueIdentifier>{ce537992-2510-4343-9773-cdc7b55af4d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\기본적으로 알아야 할 알고리즘">
+      <UniqueIdentifier>{0a962496-bdda-47e7-a9b0-d130688f6081}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="마라톤 미완주자 찾기.cpp">
@@ -506,6 +509,9 @@
     </ClCompile>
     <ClCompile Include="파일입출력 예제.cpp">
       <Filter>소스 파일\파일입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="사칙연산 계산기.cpp">
+      <Filter>소스 파일\기본적으로 알아야 할 알고리즘</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
